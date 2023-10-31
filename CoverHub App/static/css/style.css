@@ -1,0 +1,12 @@
+/* Kaydırma çubuğu köşe yarıçapı */
+::-webkit-scrollbar {
+    border-radius: 6px;
+    border: 1px solid #aaa;
+  }
+  
+  /* Kaydırma çubuğu kayan kısmın arka plan rengi */
+::-webkit-scrollbar-thumb {
+    background-color: white;
+  }
+
+

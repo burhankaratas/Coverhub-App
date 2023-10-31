@@ -1,0 +1,15 @@
+
+
+  {% if session["logged_in"] %}
+
+  
+    
+  {% else %}
+  
+  <nav class="navbar navbar-light" style="background-color: black;">
+    <a class="navbar-brand" href="/login">
+      <img src="../static/images/logobgr.png" height="100px" class="d-inline-block align-top" style="margin-left: 10px;">
+    </a>
+  </nav>
+    
+  {% endif %}

@@ -1,0 +1,54 @@
+{% include 'layout.html'   %}
+
+
+{% block body %}
+    
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3" style="background-color: black; color: white; margin: 10px; border-radius: 10px; padding: 40px; margin-top: 50px; margin-left: 50px;">
+            <a href="/home/{{username}}" style="color: white; font-size: 20px; margin-left: 10px; text-decoration: none;">   <i class="fa-solid fa-house" style="font-size: 25px; margin: 5px;"></i>  Ana sayfa  </a> <br><br>
+               </i> <a href="/search/{{username}}" style="color: white; font-size: 20px; margin-left: 10px; text-decoration: none;"><i class="fa-solid fa-magnifying-glass" style="font-size: 25px; margin: 5px;"></i> Arama</a>
+               <br><br>
+               <hr style="background-color: white;">
+               <br>
+               <a href="/addplaylist/{{username}}" style="color: white; font-size: 20px; margin-left: 10px; text-decoration: none;"> <i class="fa-solid fa-plus" style="font-size: 25px; margin: 5px;"></i> Playlist Ekle </a>
+               <br><br>
+               <a href="/favorites/{{username}}" style="color: white; font-size: 20px; margin-left: 10px; text-decoration: none;"> <i class="fa-solid fa-heart" style="font-size: 25px; margin: 5px;"></i>  Beğenilen Şarkılar </a>
+               <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+               <a href="/settings" style="text-decoration: none; color: white;"> <i class="fa-solid fa-gears" style="font-size: 25px;"></i> </a>
+               <a href="/logout" style="text-decoration: none; color: white; margin-left: 330px;"> <i class="fa-solid fa-arrow-right-from-bracket" style="font-size: 25px;"></i> </a>
+           </div>
+           <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8" style="background-color: black; border-radius: 15px; padding: 40px; color: white; margin-top: 10px; margin: auto; margin-top: 50px;">
+            <div class="container-fluid">
+                <div class="row" style="height: 700px;">
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+
+                                </div>
+                                <div class="col-sm">
+
+                                </div>
+                                <div class="col-sm">
+
+                                </div>
+                                <div class="col-sm">
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm" class="bg-dark">
+                                    epaojpoefaj
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+    </div>
+</div>
+
+
+{% endblock %}
